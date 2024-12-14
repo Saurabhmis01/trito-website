@@ -1,0 +1,438 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+*{
+    color: rgb(23, 23, 68) !important;
+}
+#starting-_animation{
+    width: 4px;
+    background-color: black;
+    height: 200px;
+    margin-top: 16%;
+    animation-name: ani1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+@keyframes ani1 {
+    0%{
+        scale: 1;
+        height: 200px;
+    }
+    100%{
+        scale: 1.5;
+        height: 300px;
+    }
+}
+#website{
+    display: none;
+}
+
+#mainnavbar{
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    border-bottom: 1px solid black;
+    position: sticky;
+    top: 0px;
+    z-index: 500;
+}
+#navbarul{
+    margin-left: 200px;
+}
+#navbarimg{
+    margin-left: 200px;
+}
+
+#navbarbtn{
+    margin-left: 300px;
+    background-color: rgb(3, 3, 78);
+    color: white !important;
+    padding: 10px 20px 10px 20px;
+}
+#navbarbtn:hover{
+    scale: 1.0s;
+    transition: ;
+    background-color: white;
+    color: rgb(3, 3, 78) !important;
+    cursor: pointer;
+}
+
+/* ==========================Media quary navbar=========================== */
+@media(max-width:1441px){
+    #navbarul{
+        margin-left: 200px;
+        
+    }
+    #navbarbtn{
+        margin-left: 200px;
+    }
+   
+}
+@media(max-width:1024px){
+    #navbarul{
+        margin-left: 50px;
+       
+    }
+    #navbarbtn{
+        margin-left: 50px;
+    }
+    
+}
+
+@media(max-width:1277px){
+    #navbarul{
+        margin-left: 100px;
+    }
+    #navbarbtn{
+        margin-left: 200px;
+    }
+}
+
+@media(max-width:1161px){
+    #navbarul{
+        margin-left: 100px;
+    }
+    #navbarbtn{
+        margin-left: 100px;
+    }
+    #navbarimg{
+        margin-left: 100px;
+    }
+}
+@media(max-width:1161px){
+    #navbarul{
+        margin-left: 100px;
+    }
+    #navbarbtn{
+        margin-left: 100px;
+    }
+    #navbarimg{
+        margin-left: 100px;
+    }
+}
+@media(max-width:992px){
+    #navbarul{
+        margin-left: 100px;
+    }
+    #navbarbtn{
+        margin-left: 100px;
+    }
+    #navbarimg{
+        margin-left: 100px;
+    }
+}
+
+/* ======================End Navbar====================== */
+
+/* =======================hero section=================== */
+
+#heromain{
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    max-width: 100%; 
+    padding: 12% 10% 0% 10%;
+}
+
+/* ==========================end hero section===================== */
+
+/* ==========================my client========================== */
+#carouselExampleSlidesOnly{
+    background-color: rgb(24, 24, 54);
+}
+#myskill-imgs{
+        display: flex; 
+}
+#myskill-imgs img{
+    margin: 3%;
+}
+#myskill-top{
+    background-color: rgb(24, 24, 54);
+    color: white !important;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+}
+
+@media(max-width:1160px){
+    #myskill-imgs img{
+        margin: 5%;
+    }
+}
+@media(max-width:902px){
+    #myskill-imgs img{
+        margin: 5% 12% 5% 12%;
+    }
+}
+@media(max-width:660px){
+    #myskill-imgs img{
+        margin: 5% 12% 5% 25%;
+    }
+}
+
+/* ===============================dedication============================= */
+#dedication-card{
+    margin: 5%;
+    border-right: 1px solid rgb(28, 28, 55) ;
+}
+#dedication-card:hover{
+    border-right: 3px solid rgb(28, 28, 55) ;
+}
+#main-dedication{
+    padding: 0% 5% 0% 5%;
+    justify-content: center;
+}
+
+
+/* ============================My skill================================= */
+#myskill-div2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: url(https://itemsstore.net/html/trito/img/skills/1.jpg);
+    padding: 5%;
+}
+#myskill-div2 div{
+       border: 2px solid rgb(29, 29, 49);
+       background-color: white;
+       color: rgb(29, 29, 49) !important;
+       padding: 10px;
+       margin: 20px;
+       width: 100px;
+}
+#main-myskill{
+    padding: 5% 10% 5% 10%;
+}
+#myskill-div1{
+    padding: 5%;
+}
+@media(max-width:1280px){
+    #myskill-div2 div{
+        border: 2px solid rgb(29, 29, 49);
+        background-color: white;
+        color: rgb(29, 29, 49) !important;
+        padding: 5px;
+        margin: 20px;
+        width: 90px;
+ }
+}
+@media(max-width:1160px){
+    #myskill-div2 div{
+        border: 2px solid rgb(29, 29, 49);
+        background-color: white;
+        color: rgb(29, 29, 49) !important;
+        padding: 5px;
+        margin: 20px;
+        width: 70px;
+ }
+}
+@media(max-width:780px){
+    #myskill-div2{
+        display: grid;
+        grid-template-columns: auto auto;
+        background-image: url(https://itemsstore.net/html/trito/img/skills/1.jpg);
+        padding: 5%;
+    }
+}
+
+/* =========================About================================ */
+#main-about{
+    padding: 0% 10% 0% 10%;
+    background-image: url(https://itemsstore.net/html/trito/img/about/background.jpg);
+}
+#about-img{
+    width: 600px;
+}
+#about-btn{
+    background-color: rgb(34, 34, 62);
+    color: white !important;
+    
+}
+#twelve-plus{
+    display: flex;
+    border: 2px solid rgb(29, 29, 64);
+    background-color: white;
+    max-width: 250px;
+    position: relative;
+    top: 410px;
+    left: 7%;
+}
+#twelve-plus-div1{
+    font-size: 60px;
+    color: orangered !important;
+}
+#twelve-plus-div2{
+    font-size: 25px;
+}
+
+@media(max-width:1024px){
+    #twelve-plus{
+        display: flex;
+        border: 2px solid rgb(29, 29, 64);
+        background-color: white;
+        max-width: 200px;
+        position: relative;
+        top: 280px;
+        left: 6%;
+    }
+    #twelve-plus-div1{
+        font-size: 40px;
+        color: orangered !important;
+    }
+    #twelve-plus-div2{
+        font-size: 20px;
+    }
+    
+}
+@media(max-width:768px){
+    #twelve-plus{
+        display: flex;
+        border: 2px solid rgb(29, 29, 64);
+        background-color: white;
+        max-width: 150px;
+        position: relative;
+        top: 210px;
+        left: 5%;
+    }
+    #twelve-plus-div1{
+        font-size: 30px;
+        color: orangered !important;
+    }
+    #twelve-plus-div2{
+        font-size: 18px;
+    }
+    
+}
+@media(max-width:425px){
+    #twelve-plus{
+        display: flex;
+        border: 2px solid rgb(29, 29, 64);
+        background-color: white;
+        max-width: 150px;
+        position: relative;
+        top: 900px;
+        left: 5%;
+    }
+    #twelve-plus-div1{
+        font-size: 30px;
+        color: orangered !important;
+    }
+    #twelve-plus-div2{
+        font-size: 18px;
+    }
+    
+}
+@media(max-width:375px){
+    #twelve-plus{
+        display: flex;
+        border: 2px solid rgb(29, 29, 64);
+        background-color: white;
+        max-width: 150px;
+        position: relative;
+        top: 100px;
+        left: 5%;
+    }
+    #twelve-plus-div1{
+        font-size: 30px;
+        color: orangered !important;
+    }
+    #twelve-plus-div2{
+        font-size: 18px;
+    }
+    
+}
+
+
+/* ========================About 2================== */
+#about2{
+    padding: 10%;
+}
+/* ==============portfolio=========== */
+#portfolio{
+    border: 2px solid rgb(33, 33, 61);
+    overflow: hidden;
+}
+#portfolio img:hover{
+       scale: 1.3;
+       transition: scale 3s;
+}
+
+/* ===========faq================= */
+
+#main-faq{
+    padding: 10%;
+}
+#faq1{
+    margin: 2%;
+    /* background-color: rgb(31, 31, 57);
+    color: white !important; */
+}
+/* ========================================== */
+
+#contact-me a{
+        font-size: 20px;
+        background-color: white;
+        color: rgb(29, 29, 62) !important;
+        padding: 10px 20px 10px 20px;
+}
+#contact-me a:hover{
+    scale: 1.0;
+    background-color: rgb(26, 26, 60);
+    color: white !important;
+}
+#contact-me{
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    padding: 7%;
+}
+
+/* ===========================blog=================== */
+
+#blog{
+    border-radius: 39%;
+    border: 2px solid rgb(32, 32, 72);
+    overflow: hidden;
+}
+#blog img:hover{
+    scale: 1.2;
+    transition: scale 3s;
+
+}
+#blog1{
+    margin-left: 30px;
+    cursor: pointer;
+    color: rgb(25, 25, 57) !important;
+}
+#blog1 h5:hover{
+    scale: 1.0;
+
+    color: orangered !important;
+}
+
+
+
+/* ============================== */
+#con{
+    background-image: url(https://itemsstore.net/html/trito/img/contact/background.jpg);
+    padding: 10%;
+}
+
+/* ===============runing================= */
+#run{
+    font-size: 50px !important;
+    margin: 2%;
+    font-weight: 800;
+}
+#run1{
+    font-size: 50px !important;
+    margin: 2%;
+    font-weight: 800;
+}
+#run2{
+    font-size: 50px !important;
+    margin: 2%;
+    font-weight: 800;
+}
